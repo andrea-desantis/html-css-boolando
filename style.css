@@ -8,7 +8,9 @@ img{
     max-width: 100%;
 }
 
-
+body{
+    font-family: sans-serif;
+}
 /* utilities */
 
 .bg-orange{
@@ -23,6 +25,15 @@ img{
     background-color: red;
 }
 
+.discount{
+    position: absolute;
+    bottom: 50px;
+    left: 0px;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    
+}
 /* layout */
 section{
     padding: 40px;
@@ -51,4 +62,8 @@ section{
 
     /* border: 1px solid black;
     min-height: 200px; */
+}
+
+.card{
+    position: relative;
 }
