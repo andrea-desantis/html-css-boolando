@@ -30,7 +30,6 @@ body{
 .discount{
     position: absolute;
     bottom: 30%;
-    
     color: white;
     
 }
@@ -40,9 +39,7 @@ body{
 .red{
     color: red;
 }
-.font-barrato{
-    font-style: ;
-}
+
 
 
 .font-piccolo{
