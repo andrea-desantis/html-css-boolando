@@ -18,22 +18,32 @@ body{
 }
 
 .bg-green{
+    display: inline-block;
     background-color: green;
+    padding: 5px;
 }
-
+.bg-red{
+    background-color: red;
+    padding: 5px;
+    display: inline-block;
+}
+.discount{
+    position: absolute;
+    bottom: 30%;
+    
+    color: white;
+    
+}
+.spazio-dx{
+    left: 55px;
+}
 .red{
     color: red;
 }
 .font-barrato{
     font-style: ;
 }
-.discount{
-    position: absolute;
-    bottom: 30%;
-    background-color: red;
-    color: white;
-    padding: 5px;
-}
+
 
 .font-piccolo{
 
