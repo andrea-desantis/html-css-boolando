@@ -21,18 +21,22 @@ body{
     background-color: green;
 }
 
-.bg-red{
-    background-color: red;
+.red{
+    color: red;
 }
-
+.font-barrato{
+    font-style: ;
+}
 .discount{
     position: absolute;
-    bottom: 50px;
-    left: 0px;
+    bottom: 30%;
     background-color: red;
     color: white;
     padding: 5px;
-    
+}
+
+.font-piccolo{
+
 }
 /* layout */
 section{
@@ -67,3 +71,4 @@ section{
 .card{
     position: relative;
 }
+
