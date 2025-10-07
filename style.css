@@ -24,9 +24,29 @@ img{
 }
 
 /* layout */
+
+.container{
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1000px;
+    height: 1000px;
+
+    
+
+}
+
 .row{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.col-30{
+    width: 30%;
+    height: 200px;
+    margin-bottom: 20px;
     border: 1px solid black;
+    
 }
